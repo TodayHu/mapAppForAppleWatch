@@ -11,7 +11,11 @@
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="MapAppForAppleWatch_Watch_App" customModuleProvider="target">
                     <items>
                         <map height="0.80000000000000004" alignment="left" id="v6E-BG-nKK"/>
-                        <button width="1" height="0.20000000000000015" alignment="left" title="Button" id="FIs-KA-Ltc"/>
+                        <button width="1" height="0.20000000000000015" alignment="left" title="Add Image" id="FIs-KA-Ltc">
+                            <connections>
+                                <action selector="onAddImage" destination="AgC-eL-Hgc" id="bO5-MR-2w5"/>
+                            </connections>
+                        </button>
                     </items>
                     <connections>
                         <outlet property="mainMap" destination="v6E-BG-nKK" id="8Kt-Zr-HkM"/>

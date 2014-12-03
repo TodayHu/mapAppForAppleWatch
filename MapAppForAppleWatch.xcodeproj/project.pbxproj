@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		502DA61B1A2EB29F0093CFBD /* oldrepub.png in Resources */ = {isa = PBXBuildFile; fileRef = 502DA61A1A2EB29F0093CFBD /* oldrepub.png */; };
+		502DA61C1A2EB29F0093CFBD /* oldrepub.png in Resources */ = {isa = PBXBuildFile; fileRef = 502DA61A1A2EB29F0093CFBD /* oldrepub.png */; };
+		502DA61D1A2EB29F0093CFBD /* oldrepub.png in Resources */ = {isa = PBXBuildFile; fileRef = 502DA61A1A2EB29F0093CFBD /* oldrepub.png */; };
+		502DA61E1A2EB29F0093CFBD /* oldrepub.png in Resources */ = {isa = PBXBuildFile; fileRef = 502DA61A1A2EB29F0093CFBD /* oldrepub.png */; };
 		50C4B1FB1A2EA09A00D1459F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C4B1FA1A2EA09A00D1459F /* AppDelegate.swift */; };
 		50C4B1FE1A2EA09A00D1459F /* MapAppForAppleWatch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50C4B1FC1A2EA09A00D1459F /* MapAppForAppleWatch.xcdatamodeld */; };
 		50C4B2001A2EA09A00D1459F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C4B1FF1A2EA09A00D1459F /* ViewController.swift */; };
@@ -63,6 +67,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		502DA61A1A2EB29F0093CFBD /* oldrepub.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = oldrepub.png; path = ../../../../../../Documents/oldrepub.png; sourceTree = "<group>"; };
 		50C4B1F51A2EA09A00D1459F /* MapAppForAppleWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapAppForAppleWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50C4B1F91A2EA09A00D1459F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50C4B1FA1A2EA09A00D1459F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -139,6 +144,7 @@
 		50C4B1F71A2EA09A00D1459F /* MapAppForAppleWatch */ = {
 			isa = PBXGroup;
 			children = (
+				502DA61A1A2EB29F0093CFBD /* oldrepub.png */,
 				50C4B1FA1A2EA09A00D1459F /* AppDelegate.swift */,
 				50C4B1FF1A2EA09A00D1459F /* ViewController.swift */,
 				50C4B2011A2EA09A00D1459F /* Main.storyboard */,
@@ -344,6 +350,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				502DA61B1A2EB29F0093CFBD /* oldrepub.png in Resources */,
 				50C4B2031A2EA09A00D1459F /* Main.storyboard in Resources */,
 				50C4B2081A2EA09A00D1459F /* LaunchScreen.xib in Resources */,
 				50C4B2051A2EA09A00D1459F /* Images.xcassets in Resources */,
@@ -354,6 +361,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				502DA61C1A2EB29F0093CFBD /* oldrepub.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +371,7 @@
 			files = (
 				50C4B22E1A2EA0A600D1459F /* Images.xcassets in Resources */,
 				50C4B2321A2EA0A600D1459F /* MapAppForAppleWatch Watch App.app in Resources */,
+				502DA61D1A2EB29F0093CFBD /* oldrepub.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +381,7 @@
 			files = (
 				50C4B2391A2EA0A600D1459F /* Interface.storyboard in Resources */,
 				50C4B23B1A2EA0A600D1459F /* Images.xcassets in Resources */,
+				502DA61E1A2EB29F0093CFBD /* oldrepub.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -655,6 +665,7 @@
 				50C4B2191A2EA09A00D1459F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50C4B21A1A2EA09A00D1459F /* Build configuration list for PBXNativeTarget "MapAppForAppleWatchTests" */ = {
 			isa = XCConfigurationList;
@@ -663,6 +674,7 @@
 				50C4B21C1A2EA09A00D1459F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50C4B23F1A2EA0A600D1459F /* Build configuration list for PBXNativeTarget "MapAppForAppleWatch Watch App" */ = {
 			isa = XCConfigurationList;
@@ -671,6 +683,7 @@
 				50C4B2411A2EA0A600D1459F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50C4B2421A2EA0A600D1459F /* Build configuration list for PBXNativeTarget "MapAppForAppleWatch WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -679,6 +692,7 @@
 				50C4B2441A2EA0A600D1459F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

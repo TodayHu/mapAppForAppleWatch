@@ -23,7 +23,8 @@ class InterfaceController: WKInterfaceController {
 
         mainMap.setCoordinateRegion(MKCoordinateRegion(center: location, span: span))
         mainMap.addAnnotation(location, withImageNamed: "Home")
-        
+        mainMap.addAnnotation(location, withPinColor: WKInterfaceMapPinColor.Purple)
+
         // Configure interface objects here.
         NSLog("%@ init", self)
     }
@@ -38,6 +39,18 @@ class InterfaceController: WKInterfaceController {
         // This method is called when watch view controller is no longer visible
         NSLog("%@ did deactivate", self)
         super.didDeactivate()
+    }
+
+    @IBAction func onAddImage() {
+
+        var imageView = UIImageView(frame: CGRectMake(100, 150, 25, 25))
+        var image = UIImage(named: "oldrepub.png")
+        imageView.image = image
+
+//        var interface : InterfaceController
+//        interface.??
+
+        mainMap.addAnnotation(location, withImage: imageView.image)
     }
 
 }
